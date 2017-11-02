@@ -3,10 +3,10 @@ var Counter = React.createClass({
         console.log('Ustawienie domyślnych propsów');
     },
     getInitialState: function() {
+        console.log('Ustawienie domyślnego stanu');
         return {
             counter: 0
         };
-        console.log('Ustawienie domyślnego stanu');
     },
 
     componentWillMount: function() {
